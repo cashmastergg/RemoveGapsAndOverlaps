@@ -1,0 +1,391 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0/win10-x64",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {},
+    ".NETCoreApp,Version=v6.0/win10-x64": {
+      "RemoveGapsAndOverlaps/1.0.0": {
+        "dependencies": {
+          "ArcGIS.Desktop.Layouts": "13.0.0.0"
+        },
+        "runtime": {
+          "RemoveGapsAndOverlaps.dll": {}
+        }
+      },
+      "ArcGIS.Desktop.Layouts/13.0.0.0": {
+        "runtime": {
+          "ArcGIS.Desktop.Layouts.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.2.36056"
+          }
+        }
+      },
+      "ArcGIS.Desktop.Docking.Wpf/22.1.1.0": {
+        "runtime": {
+          "ArcGIS.Desktop.Docking.Wpf.dll": {
+            "assemblyVersion": "22.1.1.0",
+            "fileVersion": "22.1.1.0"
+          }
+        }
+      },
+      "Microsoft.Web.WebView2.Wpf/1.0.1150.38": {
+        "runtime": {
+          "Microsoft.Web.WebView2.Wpf.dll": {
+            "assemblyVersion": "1.0.1150.38",
+            "fileVersion": "1.0.1150.38"
+          }
+        }
+      },
+      "Microsoft.Web.WebView2.Core/1.0.1150.38": {
+        "runtime": {
+          "Microsoft.Web.WebView2.Core.dll": {
+            "assemblyVersion": "1.0.1150.38",
+            "fileVersion": "1.0.1150.38"
+          }
+        }
+      },
+      "ArcGIS.Desktop.Editors.Wpf/22.1.1.0": {
+        "runtime": {
+          "ArcGIS.Desktop.Editors.Wpf.dll": {
+            "assemblyVersion": "22.1.1.0",
+            "fileVersion": "22.1.1.0"
+          }
+        }
+      },
+      "ArcGIS.Desktop.SyntaxEditor.Wpf/22.1.1.0": {
+        "runtime": {
+          "ArcGIS.Desktop.SyntaxEditor.Wpf.dll": {
+            "assemblyVersion": "22.1.1.0",
+            "fileVersion": "22.1.1.0"
+          }
+        }
+      },
+      "C1.WPF.Grid/6.0.20222.263": {
+        "runtime": {
+          "C1.WPF.Grid.dll": {
+            "assemblyVersion": "6.0.20222.263",
+            "fileVersion": "6.0.20222.263"
+          }
+        }
+      },
+      "C1.WPF.Core/6.0.20222.263": {
+        "runtime": {
+          "C1.WPF.Core.dll": {
+            "assemblyVersion": "6.0.20222.263",
+            "fileVersion": "6.0.20222.263"
+          }
+        }
+      },
+      "Microsoft.Xaml.Behaviors/1.1.0.0": {
+        "runtime": {
+          "Microsoft.Xaml.Behaviors.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.39.4716"
+          }
+        }
+      },
+      "Lucene.Net/4.0.0.0": {
+        "runtime": {
+          "Lucene.Net.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.0.0"
+          }
+        }
+      },
+      "Lucene.Net.QueryParser/4.0.0.0": {
+        "runtime": {
+          "Lucene.Net.QueryParser.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.0.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.0.0": {
+        "runtime": {
+          "Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
+          }
+        }
+      },
+      "Lucene.Net.Analysis.Common/4.0.0.0": {
+        "runtime": {
+          "Lucene.Net.Analysis.Common.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.0.0"
+          }
+        }
+      },
+      "ArcGIS.Desktop.Text.Wpf/22.1.1.0": {
+        "runtime": {
+          "ArcGIS.Desktop.Text.Wpf.dll": {
+            "assemblyVersion": "22.1.1.0",
+            "fileVersion": "22.1.1.0"
+          }
+        }
+      },
+      "C1.WPF.GridControl/6.0.20222.263": {
+        "runtime": {
+          "C1.WPF.GridControl.dll": {
+            "assemblyVersion": "6.0.20222.263",
+            "fileVersion": "6.0.20222.263"
+          }
+        }
+      },
+      "C1.DataCollection/1.0.20222.106": {
+        "runtime": {
+          "C1.DataCollection.dll": {
+            "assemblyVersion": "1.0.20222.106",
+            "fileVersion": "1.0.20222.106"
+          }
+        }
+      },
+      "C1.WPF.DataCollection/1.0.20222.106": {
+        "runtime": {
+          "C1.WPF.DataCollection.dll": {
+            "assemblyVersion": "1.0.20222.106",
+            "fileVersion": "1.0.20222.106"
+          }
+        }
+      },
+      "C1.WPF.Input/6.0.20222.263": {
+        "runtime": {
+          "C1.WPF.Input.dll": {
+            "assemblyVersion": "6.0.20222.263",
+            "fileVersion": "6.0.20222.263"
+          }
+        }
+      },
+      "C1.WPF.Menu/6.0.20222.263": {
+        "runtime": {
+          "C1.WPF.Menu.dll": {
+            "assemblyVersion": "6.0.20222.263",
+            "fileVersion": "6.0.20222.263"
+          }
+        }
+      },
+      "C1.WPF.DataFilter/6.0.20222.263": {
+        "runtime": {
+          "C1.WPF.DataFilter.dll": {
+            "assemblyVersion": "6.0.20222.263",
+            "fileVersion": "6.0.20222.263"
+          }
+        }
+      },
+      "C1.WPF.DateTimeEditors/6.0.20222.263": {
+        "runtime": {
+          "C1.WPF.DateTimeEditors.dll": {
+            "assemblyVersion": "6.0.20222.263",
+            "fileVersion": "6.0.20222.263"
+          }
+        }
+      },
+      "C1.WPF.Accordion/6.0.20222.263": {
+        "runtime": {
+          "C1.WPF.Accordion.dll": {
+            "assemblyVersion": "6.0.20222.263",
+            "fileVersion": "6.0.20222.263"
+          }
+        }
+      },
+      "C1.DataCollection.BindingList/1.0.20222.106": {
+        "runtime": {
+          "C1.DataCollection.BindingList.dll": {
+            "assemblyVersion": "1.0.20222.106",
+            "fileVersion": "1.0.20222.106"
+          }
+        }
+      },
+      "J2N/2.0.0.0": {
+        "runtime": {
+          "J2N.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/2.0.0.0": {
+        "runtime": {
+          "Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.17205"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/2.0.0.0": {
+        "runtime": {
+          "Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.17205"
+          }
+        }
+      },
+      "C1.WPF.ListView/6.0.20222.263": {
+        "runtime": {
+          "C1.WPF.ListView.dll": {
+            "assemblyVersion": "6.0.20222.263",
+            "fileVersion": "6.0.20222.263"
+          }
+        }
+      },
+      "C1.WPF.TreeView/6.0.20222.263": {
+        "runtime": {
+          "C1.WPF.TreeView.dll": {
+            "assemblyVersion": "6.0.20222.263",
+            "fileVersion": "6.0.20222.263"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RemoveGapsAndOverlaps/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ArcGIS.Desktop.Layouts/13.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ArcGIS.Desktop.Docking.Wpf/22.1.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Web.WebView2.Wpf/1.0.1150.38": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Web.WebView2.Core/1.0.1150.38": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ArcGIS.Desktop.Editors.Wpf/22.1.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ArcGIS.Desktop.SyntaxEditor.Wpf/22.1.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "C1.WPF.Grid/6.0.20222.263": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "C1.WPF.Core/6.0.20222.263": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Xaml.Behaviors/1.1.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Lucene.Net/4.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Lucene.Net.QueryParser/4.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/13.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Lucene.Net.Analysis.Common/4.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ArcGIS.Desktop.Text.Wpf/22.1.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "C1.WPF.GridControl/6.0.20222.263": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "C1.DataCollection/1.0.20222.106": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "C1.WPF.DataCollection/1.0.20222.106": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "C1.WPF.Input/6.0.20222.263": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "C1.WPF.Menu/6.0.20222.263": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "C1.WPF.DataFilter/6.0.20222.263": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "C1.WPF.DateTimeEditors/6.0.20222.263": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "C1.WPF.Accordion/6.0.20222.263": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "C1.DataCollection.BindingList/1.0.20222.106": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "J2N/2.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.Primitives/2.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/2.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "C1.WPF.ListView/6.0.20222.263": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "C1.WPF.TreeView/6.0.20222.263": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,44 @@
+﻿<ArcGIS defaultAssembly="RemoveGapsAndOverlaps.dll" defaultNamespace="RemoveGapsAndOverlaps" xmlns="http://schemas.esri.com/DADF/Registry" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.esri.com/DADF/Registry file:///C:/Program%20Files/ArcGIS/Pro/bin/ArcGIS.Desktop.Framework.xsd">
+  <AddInInfo id="{02d7bb6e-297a-4de9-93ba-d894535c3753}" version="1.0" desktopVersion="3.0.36056">
+    <Name>RemoveGapsAndOverlaps</Name>
+    <Description>RemoveGapsAndOverlaps description</Description>
+    <Image>Images\AddinDesktop32.png</Image>
+    <Author>nguyenq</Author>
+    <Company>Acme</Company>
+    <Date>05/09/2023 1:20:34 PM</Date>
+    <Subject>Framework</Subject>
+    <!-- Note subject can be one or more of these topics:
+                    Content, Framework, Editing, Geodatabase, Geometry, Geoprocessing, Layouts, Map Authoring, Map Exploration -->
+  </AddInInfo>
+  <modules>
+    <insertModule id="RemoveGapsAndOverlaps_Module" className="Module1" autoLoad="false" caption="Module1">
+      <!-- uncomment to have the control hosted on a separate tab-->
+      <tabs>
+        <!--<tab id="RemoveGapsAndOverlaps_Tab1" caption="New Tab">
+          <group refID="RemoveGapsAndOverlaps_Group1"/>
+        </tab>-->
+      </tabs>
+      <groups>
+        <!-- comment this out if you have no controls on the Addin tab to avoid
+              an empty group-->
+        <group id="RemoveGapsAndOverlaps_Group1" caption="Group 1" appearsOnAddInTab="true">
+          <!-- host controls within groups -->
+          <button refID="RemoveGapsAndOverlaps_Dockpane1_ShowButton" size="large" />
+        </group>
+      </groups>
+      <controls>
+        <!-- add your controls here -->
+        <button id="RemoveGapsAndOverlaps_Dockpane1_ShowButton" caption="Gaps and Overlaps" className="Dockpane1_ShowButton" loadOnClick="true" 
+				smallImage="Images\Gaps16.png" 
+				largeImage="Images\Gaps32.png">
+          <tooltip heading="Gaps and Overlaps">Gaps and Overlapse<disabledText /></tooltip>
+        </button>
+      </controls>
+      <dockPanes>
+        <dockPane id="RemoveGapsAndOverlaps_Dockpane1" caption="Remove Gaps and Overlays" className="Dockpane1ViewModel" dock="group" dockWith="esri_core_projectDockPane">
+          <content className="Dockpane1View" />
+        </dockPane>
+      </dockPanes>
+    </insertModule>
+  </modules>
+</ArcGIS>
